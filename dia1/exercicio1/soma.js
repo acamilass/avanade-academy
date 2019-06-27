@@ -3,7 +3,7 @@ function sumAll(arraySum) {
     for(let i=arraySum[0]; i<=arraySum[1]; i++) {
         soma += i;
     }
-    console.log(soma);
+    return soma;
 }
 
-sumAll([5, 10]);
+console.log(sumAll([5, 10]));
